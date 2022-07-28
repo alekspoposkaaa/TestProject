@@ -1,0 +1,6 @@
+11:38:58.447 [main] INFO  actions.CreateLicence:33 openWebsite - You are logged in Salesforce
+11:39:06.649 [main] WARN  actions.CreateLicence:61 createLicense - The current url is https://seavus-testing-vlocity--vlocitysbx.lightning.force.com/lightning/o/sfLma__License__c/list?filterName=Recent
+11:39:07.756 [main] INFO  actions.CreateLicence:66 createLicense - Expired license is created
+11:39:08.446 [main] INFO  actions.CreateLicence:71 createLicense - This type of license 'Salesforce License' is created!
+11:39:09.025 [main] INFO  actions.CreateLicence:75 createLicense - The license is saved!
+11:39:13.178 [main] INFO  actions.CreateLicence:86 closeWebsite - The browser is closed

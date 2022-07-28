@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.Listeners" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	<test name="Test and Report">
+		<classes>
+			<class name="actions.CreateAccount" />
+			<class name="actions.CreateAccountService" />
+			<class name="actions.CreateLicence" />
+			<class name="actions.CreateVlocityRule" />
+			<class name="actions.ProductCatalog" />
+			<class name="actions.VlocityFilter" />
+			<class name="pi.CreateContact" />
+			<class name="pi.CreateOrchestrationPlan" />
+			<class name="pi.CreatePayment" />
+			<class name="pi.CreateProduct" />
+			<class name="sc.CreateContactRequest" />
+			<class name="sc.CreatePackage" />
+			<class name="sc.CreateSystem" />
+			<class name="sw.CreateLead" />
+			<class name="sw.CreatePartnerContract" />
+			<class name="sw.CreatePayment" />
+			<class name="ui.CreateAccount" />
+			<class name="ui.DownloadFile" />
+			<class name="ui.EditGroup" />
+			<class name="ui.OrchestrationDefinition" />
+			<class name="ui.EmailList" />
+			<class name="wait.CreateContact" />
+			<class name="wait.CreateLead" />
+			<class name="wait.CreatePayment" />
+			<class name="wait.DownloadFile" />
+			<class name="wait.EmailList" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

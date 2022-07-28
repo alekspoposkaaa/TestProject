@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Reports Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Reports Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 19:14:58 CEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (79 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='reports.ReportClass.reporterTestTwo()'><b>reporterTestTwo</b><br>Test class: reports.ReportClass<br/>
+<a href="#Output-176342513" onClick='toggleBox("Output-176342513", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-176342513" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-176342513">
+The name of the method is reporterTestTwo<br/>
+Status of execution 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>reports.ReportClass@5884a914</td></tr>
+<tr>
+<td title='reports.ReportClass.reporterTestThree()'><b>reporterTestThree</b><br>Test class: reports.ReportClass<br/>
+<a href="#Output-939199469" onClick='toggleBox("Output-939199469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-939199469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-939199469">
+The name of the method is reporterTestThree<br/>
+Hi<br/>
+Status of execution 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>reports.ReportClass@5884a914</td></tr>
+<tr>
+<td title='reports.ReportClass.reporterTestOne()'><b>reporterTestOne</b><br>Test class: reports.ReportClass<br/>
+<a href="#Output-481511146" onClick='toggleBox("Output-481511146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-481511146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-481511146">
+The name of the method is reporterTestOne<br/>
+Status of execution 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>reports.ReportClass@5884a914</td></tr>
+</table><p>
+</body>
+</html>
